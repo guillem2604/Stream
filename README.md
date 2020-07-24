@@ -1,7 +1,6 @@
 # Stream
-
+##### Lista a un Mapa. Collectors.toMap(function key, function value)
 ```
-
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -20,3 +19,4 @@ public class Test {
 
 }
 ```
+
