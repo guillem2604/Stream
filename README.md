@@ -20,3 +20,11 @@ public class Test {
 }
 ```
 
+```
+
+Map<Integer, Integer> map1 = Files.lines(Paths.get(inputFile))
+                .map(line -> line.trim())
+                .map(Integer::valueOf)
+                .collect(Collectors.toMap(x -> x, x -> 1))
+                
+```
