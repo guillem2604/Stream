@@ -28,3 +28,8 @@ Map<Integer, Integer> map1 = Files.lines(Paths.get(inputFile))
                 .collect(Collectors.toMap(x -> x, x -> 1))
                 
 ```
+
+
+
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
