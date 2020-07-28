@@ -29,6 +29,18 @@ Map<Integer, Integer> map1 = Files.lines(Paths.get(inputFile))
                 
 ```
 
+Imprimir lista de mapas:
+```
+List<HashMap<String, Object>> list = new ArrayList<HashMap<String, Object>>();
+
+    for (Map element : list) {
+        Set<Map.Entry<String, Object>> entrySet = element.entrySet();
+        for (Map.Entry<String, Object> mapEntry : entrySet) {
+            System.out.println("Key is : " + mapEntry.getKey());
+            System.out.println("Value is : " + mapEntry.getValue());
+        }
+    }
+```
 
 
 
